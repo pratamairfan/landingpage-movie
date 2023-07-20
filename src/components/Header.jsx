@@ -1,11 +1,6 @@
-import { useState } from "react";
-import { searchMovie, getMovieListPopular } from "../apimovie";
 import UpComing from "./UpComing";
-import Popular from "./Popular";
 
 function Header(props) {
-  const [upComing, setUpComing] = useState([]);
-
   return (
     <>
       <div className="navbar fixed bg-base-100 z-10">
@@ -18,7 +13,7 @@ function Header(props) {
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li>
-                <a>Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a>TV Series</a>
@@ -38,7 +33,7 @@ function Header(props) {
         <div className="navbar-start hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
               <a>TV Series</a>

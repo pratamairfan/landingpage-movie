@@ -61,40 +61,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      {/* hero v1 */}
-      {/* <div className="hero min-h-screen bg-base-200 mb-20">
-        <div className="img"></div>
-        <div className="overlay"></div>
-        <div className="hero-content grid relative top-56">
-          <div>
-            <h1 className="text-5xl font-bold">Box Office Movies!</h1>
-            <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          </div>
-          <div className="flex flex-wrap gap-4">
-            <a href="#" className="content-merk">
-              <span href="#" className="text-2xl font-bold">
-                Disney
-              </span>
-            </a>
-            <a href="#" className="content-merk">
-              <span href="#" className="text-2xl font-bold">
-                Netflix
-              </span>
-            </a>
-            <a href="#" className="content-merk">
-              <span href="#" className="text-2xl font-bold">
-                HBO
-              </span>
-            </a>
-            <a href="#" className="content-merk">
-              <span href="#" className="text-2xl font-bold">
-                Apple TV
-              </span>
-            </a>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };
